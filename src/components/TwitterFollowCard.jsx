@@ -20,7 +20,7 @@ export default function TwitterFollowCard({ name , userName  }){
     <article className='art-follow-card'>
             <header className='tw-follow-card'>
                 <img className='img-follow-card' alt="Imagen del usuario a seguir" 
-                src={`https://unavatar.io/${userName}`}/>
+                src={`https://unavatar.io/x/${userName}`}/>
                 <div className='tw-follow-card-info'>
                     <strong className='name-follow-card'>{name}</strong>
                     <span className='user-follow-card'>@{userName}</span>

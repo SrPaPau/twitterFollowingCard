@@ -3,13 +3,13 @@ import TwitterFollowCard from './components/TwitterFollowCard'
 
 export function App(){
 
-    const pau = {name:'Pau Porta' , userName:'SrPaPau' };
-    const midudev = {name:'Midudev' , userName:'midudev' };
+    const pau = {name:'Pau Porta' , userName:'SrPauPorta' };
+    const elonmusk = {name:'Escamot Lila' , userName:'cosdelbou' };
 
     return( 
         <header> 
             <TwitterFollowCard {... pau}/> 
-            <TwitterFollowCard {... midudev}/>
+            <TwitterFollowCard {... elonmusk}/>
         </header>
         
     )
