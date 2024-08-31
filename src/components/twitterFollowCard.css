@@ -41,6 +41,7 @@
     border-radius: 50px;
     margin: 60%;
     margin-right: 10px;
+    transition: width .3s ease, margin .3s ease, background-color 0.3s ease;
 }.btn-non-following:hover{
     cursor: pointer;
     background-color: #00a2ff6e;
@@ -54,6 +55,7 @@
     border-radius: 50px;
     margin: 10%;
     margin-right: 10px;
+    transition: width .3s ease, margin .3s ease, background-color 0.3s ease;
 }.btn-following:hover{
     cursor: pointer;
     background-color: #ff000063;
